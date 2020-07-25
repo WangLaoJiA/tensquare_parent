@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      name: eureka                  #base-dev.yml --前半段
+      profile: dev                #后面文件的类型
+      label: master               #主干
+      uri: http://127.0.0.1:12000 #地址
